@@ -1,2 +1,2 @@
 # Lab 2 - Starter
-https://michinoriw.github.io/Lab2_Starter/
+https://michinoriw.github.io/sp23-cse110-lab3/
