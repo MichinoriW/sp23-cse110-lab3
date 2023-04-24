@@ -1,0 +1,130 @@
+/*Test comment */
+
+.smalltitle {
+    background-color: rgb(50,141,165);
+    border-width: 6px;
+    border-style: solid;
+    border-color: pink;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 200px
+  }
+
+.bigtitle {
+    margin-left: 10px;
+    margin-right: 100cm;
+    margin-top: 0.5in;
+    margin-bottom: 5ex;
+}
+
+h1:hover{
+    color:purple;
+    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+}
+
+p + h2 {
+    font-size: 20px;
+}
+
+h2 ~ p {
+    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+}
+
+div * {
+    color: red;
+  }
+
+#name{
+    background-color: blue;
+    color: white;
+    font-size: 24px;
+}
+
+button:active {
+    color: coral;
+}
+
+.amogus {
+    border-width: 6px;
+    border-style: solid;
+    border-color: pink;
+}
+
+
+body {
+    background-color: rgb(141,254,125);
+  }
+
+  a[href="Meeting1"] {
+    color: black;
+  }
+  
+  h1 {
+    color: #e1a;
+    text-decoration: underline;
+    display: block;
+  }
+
+  h2, h3 {
+    color: hsl(20,50%,40%);
+    margin: 3vw, 4vh, 1pc, 1q;
+  }
+
+  ol > li {
+    color: red;
+  }
+
+  .meetinglist {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 50px;
+    padding-right: 1px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: blue;
+    max-width: 5000px;
+    max-height: 400px;
+    position: static;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:  50px 100px 75px;
+    column-gap: 100px;
+  }
+
+  .fitpicture {
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+  }
+
+  @media (min-width: 700px) {
+    .sample {
+        display: block;
+    }
+  }
+
+  .sample {
+    display: none;
+  }
+
+  .forms {
+    border-style: solid;
+    border-color: darkorange;
+    border-width: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    margin: auto;
+  }
+
+  .forms textarea {
+    color:#e1a;
+  }
+
